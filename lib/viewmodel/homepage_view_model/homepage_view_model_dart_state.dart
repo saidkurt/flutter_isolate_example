@@ -11,8 +11,8 @@ class HomepageViewModelInitial extends HomepageViewModelState {}
 
 @immutable
 class CalculatedValue extends HomepageViewModelState {
-  final int numberModel;
-  const CalculatedValue(this.numberModel);
+  final int value;
+  const CalculatedValue(this.value);
   @override
-  List<Object> get props => [numberModel];
+  List<Object> get props => [value];
 }
